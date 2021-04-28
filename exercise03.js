@@ -22,8 +22,8 @@ let classRoster = {
             shortDescription: "its about learning stuff as well"
             }
          ],
-         majors: [BCOM],
-         degrees: [BCOM]
+         majors: ["BCOM"],
+         degrees: ["BCOM"]
       }, 
       {
          name: "SpongeBob Squarepants",
@@ -43,8 +43,8 @@ let classRoster = {
             shortDescription: "its about learning stuff as well"
             }
          ],
-         majors: [BCOM],
-         degrees: [BCOM]
+         majors: ["BCOM"],
+         degrees: ["BCOM"]
       } 
    ]
 } 
