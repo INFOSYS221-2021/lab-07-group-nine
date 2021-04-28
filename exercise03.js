@@ -24,7 +24,7 @@ let classRoster = {
          ],
          majors: [BCOM],
          degrees: [BCOM]
-      }, //OneStudent
+      }, 
       {
          name: "SpongeBob Squarepants",
          id: "0123456789",
@@ -45,8 +45,8 @@ let classRoster = {
          ],
          majors: [BCOM],
          degrees: [BCOM]
-      } //OneStudent
-   ]//EndOfStudents
+      } 
+   ]
 } 
 
 // print different properties of your objects
