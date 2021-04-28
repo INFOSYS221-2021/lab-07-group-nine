@@ -31,7 +31,10 @@ public class ExerciseOne {
     // Complete this method to return the index of 
     // the specified substring in the given word
     private int stringIndexOf(String subStr, String word) {
-        return 0;
+        
+        int index = word.indexOf(subStr);
+        
+        return index;
     }
     
     // Complete this method to return a combination of 
