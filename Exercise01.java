@@ -53,13 +53,18 @@ public class ExerciseOne {
     private int freqOfLetterInString(char letter, String word) {
         int freq = 0;
         
+        char[] wordArray = word.toCharArray();
         // go throuch each character in word
         // if the character is the same as the given letter,
         // then add 1 to freq
         for (int i = 0; i < word.length(); i++) {
-            
+            if(wordArray[i] == letter){
+                freq = freq + 1;
+            }
         }
         return freq;
+        
+        
     }
 }
 
