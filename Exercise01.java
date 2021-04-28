@@ -14,12 +14,18 @@ public class ExerciseOne {
     
     // Complete this method to return the word in all uppercase
     private String stringToUppercase(String word) {
-        return word;
+       
+       String txt = word.toUpperCase();
+    
+        return txt;
     }
     
     // Complete this method to return the length of the word
     private int wordLength(String word) {
-        return 0;
+        
+        int txt = word.length();
+       
+        return txt;
     }
     
     // Complete this method to return the index of 
@@ -32,7 +38,11 @@ public class ExerciseOne {
     // the first three letters and the last four letters of the given word.
     // E.g. given the word "redorangeyellowgreen", "redgreen" should be returned
     private String wordCombo(String word) {
-        return word;
+        
+       String start = word.substring(0, 3);
+       String end = word.substring(word.length() - 5);
+        
+        return start + end;
     }
     
     // Complete this method to return the frequencey of 
@@ -52,3 +62,4 @@ public class ExerciseOne {
         return freq;
     }
 }
+
