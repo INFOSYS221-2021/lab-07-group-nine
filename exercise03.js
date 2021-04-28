@@ -1,34 +1,56 @@
 // Example object and print statements
 
 // Create your JavaScript objects
-let person = {
-   firstName: "Snow",
-   lastName: "White",
-   isFiction: true,
-   age: 18,
-   address: {
-      streetAddress: "7 Fairytale Lane",
-      city: "Fairytale Forest"
-   },
-   phoneNumbers:[
+let classRoster = {
+   className: "infosys 221",
+   students:[
       {
-         type: "home",
-         number: "01 123-4567"
-      },
+         name: "Bob Ross",
+         id: "0123456789",
+         username: "xxBob_Rossxx",
+         courses: [
+            {
+            title: "learning stuff",
+            category: "infosys",
+            categoryNumber: "222",
+            shortDescription: "its about learning stuff"
+            },
+            {
+            title: "learning stuff v2",
+            category: "infosys",
+            categoryNumber: "321",
+            shortDescription: "its about learning stuff as well"
+            }
+         ],
+         majors: [BCOM],
+         degrees: [BCOM]
+      }, //OneStudent
       {
-         type: "office",
-         number: "01 555-4567"
-      },
-      {
-         type: "mobile",
-         number: "028 456-7890"
-      }
-   ],
-   spouse: null
+         name: "SpongeBob Squarepants",
+         id: "0123456789",
+         username: "xxSpongeBob_Squarepantsxx",
+         courses: [
+            {
+            title: "learning stuff",
+            category: "infosys",
+            categoryNumber: "222",
+            shortDescription: "its about learning stuff"
+            },
+            {
+            title: "learning stuff v2",
+            category: "infosys",
+            categoryNumber: "321",
+            shortDescription: "its about learning stuff as well"
+            }
+         ],
+         majors: [BCOM],
+         degrees: [BCOM]
+      } //OneStudent
+   ]//EndOfStudents
 } 
 
 // print different properties of your objects
-console.log("First name of person: " + person.firstName);
-for (i in person.phoneNumbers) {
-    console.log("Phone number: " + person.phoneNumbers[i].number);
+console.log("First name of student: " + classRoster.students[0].name);
+for (i in classRoster.students) {
+    console.log("username: " + classRoster.students[i].username);
 }
